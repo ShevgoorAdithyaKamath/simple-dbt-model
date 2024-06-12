@@ -4,6 +4,8 @@ name: "snowflake"
 config-version: 2
 version: "0.1.0"
 
+
+profile: "dev"
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
