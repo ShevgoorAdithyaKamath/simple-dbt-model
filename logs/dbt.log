@@ -29,3 +29,11 @@ Happy modeling!
 [0m19:41:16.396585 [debug] [MainThread]: Command `dbt init` succeeded at 19:41:16.396400 after 76.74 seconds
 [0m19:41:16.397329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10704c280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1094a61c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10952c730>]}
 [0m19:41:16.398033 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2024-07-01 10:47:00.903146 | a45fb3e3-e21f-4e5d-bb75-8bbf3069b4e0 ==============================
+[0m10:47:00.903146 [info ] [MainThread]: Running with dbt=1.4.0
+[0m10:47:00.903875 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/shevgooradithyakamath/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m10:47:00.903982 [debug] [MainThread]: Tracking: tracking
+[0m10:47:00.912903 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048fd850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048e51c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048e5f40>]}
+[0m10:47:00.915471 [debug] [MainThread]: Flushing usage events
