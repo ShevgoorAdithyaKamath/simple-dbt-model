@@ -1,0 +1,2 @@
+packages:
+  - local: "../test_dbt_opy"

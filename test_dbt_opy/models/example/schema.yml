@@ -2,8 +2,8 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
-    description: "A starter dbt model"
+  - name: copy1
+    description: "Copy 1"
     columns:
       - name: id
         description: "The primary key for this table"
@@ -11,8 +11,8 @@ models:
           - unique
           - not_null
 
-  - name: my_second_dbt_model
-    description: "A starter dbt model"
+  - name: copy2
+    description: "Copy 2"
     columns:
       - name: id
         description: "The primary key for this table"
