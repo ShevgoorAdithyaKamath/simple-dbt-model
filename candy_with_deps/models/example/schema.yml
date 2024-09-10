@@ -2,7 +2,7 @@
 version: 2
 
 models:
-  - name: model3
+  - name: model_project_dep
     description: "Model that has dependecy on another project"
     columns:
       - name: id
