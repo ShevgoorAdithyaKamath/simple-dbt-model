@@ -74,3 +74,78 @@ Happy modeling!
 [0m10:14:41.713815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072ac670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072aca60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072780d0>]}
 [0m10:14:41.714511 [debug] [MainThread]: Flushing usage events
 [0m10:14:42.388607 [info ] [MainThread]: ctrl-c
+[0m23:01:36.081765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069def00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a41fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1091580b0>]}
+
+
+============================== 23:01:36.092828 | d1f10285-fa8c-413a-8c2e-ad57f8b88f80 ==============================
+[0m23:01:36.092828 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:01:36.093450 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/shevgooradithyakamath/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:02:33.016405 [debug] [MainThread]: Starter project path: /Users/shevgooradithyakamath/dbt1.8/lib/python3.12/site-packages/dbt/include/starter_project
+[0m23:02:33.143631 [info ] [MainThread]: 
+Your new dbt project "candy" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:02:33.144542 [info ] [MainThread]: Setting up your profile.
+[0m23:02:42.346451 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m23:02:42.347357 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m23:03:38.806752 [info ] [MainThread]: Profile candy written to /Users/shevgooradithyakamath/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:03:38.857396 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 122.90682, "process_user_time": 2.153396, "process_kernel_time": 0.999312, "process_mem_max_rss": "92880896", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:03:38.858610 [debug] [MainThread]: Command `dbt init` succeeded at 23:03:38.858402 after 122.91 seconds
+[0m23:03:38.859651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f5d370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10984ee40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1091f3e30>]}
+[0m23:03:38.860368 [debug] [MainThread]: Flushing usage events
+[0m23:03:54.389211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054c3680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105cbcf50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108af3fe0>]}
+
+
+============================== 23:03:54.394355 | 81d06370-f748-4b74-a4cc-15729581809c ==============================
+[0m23:03:54.394355 [info ] [MainThread]: Running with dbt=1.8.5
+[0m23:03:54.394724 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/shevgooradithyakamath/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:03:54.441909 [info ] [MainThread]: dbt version: 1.8.5
+[0m23:03:54.442168 [info ] [MainThread]: python version: 3.12.5
+[0m23:03:54.442311 [info ] [MainThread]: python path: /Users/shevgooradithyakamath/dbt1.8/bin/python
+[0m23:03:54.442440 [info ] [MainThread]: os info: macOS-14.6.1-arm64-arm-64bit
+[0m23:03:54.762627 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m23:03:54.762921 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m23:04:11.979257 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.mysql'
+[0m23:04:11.993821 [info ] [MainThread]: Using profiles dir at /Users/shevgooradithyakamath/.dbt
+[0m23:04:11.994152 [info ] [MainThread]: Using profiles.yml file at /Users/shevgooradithyakamath/.dbt/profiles.yml
+[0m23:04:11.994356 [info ] [MainThread]: Using dbt_project.yml file at /Users/shevgooradithyakamath/Documents/GitProjects/dbt/dbt_project.yml
+[0m23:04:11.994568 [info ] [MainThread]: Configuration:
+[0m23:04:11.994735 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m23:04:11.994900 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:04:11.995061 [info ] [MainThread]: Required dependencies:
+[0m23:04:11.995401 [debug] [MainThread]: Executing "git --help"
+[0m23:04:12.054345 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:04:12.054979 [debug] [MainThread]: STDERR: "b''"
+[0m23:04:12.055206 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:04:12.055432 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m23:04:12.055721 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m23:04:12.055899 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "test_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type mysql!
+
+Runtime Error
+  Credentials in profile "test_dbt2", target "dev" invalid: 'host' is a required property
+
+
+[0m23:04:12.056073 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/shevgooradithyakamath/Documents/GitProjects/dbt/dbt_project.yml> not found
+
+[0m23:04:12.059021 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 17.755442, "process_user_time": 2.591572, "process_kernel_time": 2.024237, "process_mem_max_rss": "173195264", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:04:12.059640 [debug] [MainThread]: Command `dbt debug` failed at 23:04:12.059538 after 17.76 seconds
+[0m23:04:12.060106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1050a7c20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10820e8a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11c3be030>]}
+[0m23:04:12.060413 [debug] [MainThread]: Flushing usage events
