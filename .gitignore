@@ -1,3 +1,7 @@
 .idea/
 .requirements
+.user.yml
+rsa_key.p8
+rsa_key.pub
 profiles.yml
+dbt.log
